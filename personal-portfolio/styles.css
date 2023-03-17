@@ -7,37 +7,62 @@
 }
 :root {
     --black: #000;
+    --black2: #0d1117;
+    --black3: #010409;
+    --black4: #161b22;
     --white: #fff;
+    --orange: #f78166;
+    --green: #238636;
+    --green-hover: #2ea043;
+    --blue: #58a6ff;
+}
+body {
+    background-color: var(--black3);
+    color: var(--white);
+}
+a {
+    text-decoration: none;
+    color: var(--white);
 }
 .navbar {
     display: flex;
     flex-direction: row-reverse;
     position: fixed;
     width: 100%;
-    background-color: lightblue;
+    height: 10vh;
+    background-color: var(--black4);
+    /* background-color: lightblue; */
 }
 .navbar ul {
     display: flex;
-    background-color: lightcoral;
+    align-items: center;
+    gap: 10px;
     list-style: none;
+    text-transform: capitalize;
+    padding: 10px;
+    /* background-color: lightcoral; */
 }
 .welcome-section {
-    background-color: lightgrey;
+    /* background-color: lightgrey; */
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 .projects-section {
-    background-color: lightpink;
+    background-color: var(--black2);
+    /* background-color: lightpink; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 10vh 0;
 }
 .projects-section h2 {
     width: 100%;
     text-align: center;
+    padding: 5vh 0;
+    text-transform: uppercase;
 }
 .projects-section .project {
     background-color: lightgreen;
@@ -46,7 +71,7 @@
     margin: 10px;
 }
 .projects-section .project .project-img-container {
-    background-color: red;
+    background-color: lightblue;
     height: 100%;
 }
 .projects-section .project .project-img-container .project-img {
@@ -54,7 +79,8 @@
     height: 90%;
 }
 .projects-section .project .project-img-container .project-title {
-    background-color: lightblue;
+    /* background-color: lightblue; */
+    margin-top: 11px;
     text-align: center;
 }
 .contact-section {
@@ -67,12 +93,15 @@
 }
 .contact-section .social-links {
     display: flex;
+    gap: 10px;
     background-color: red;
 }
 .contact-section .social-links .social-container a{
     background-color: aqua;
     display: flex;
     align-items: center;
+    width: 100%;
+    gap: 5px;
 }
 .contact-section .social-links .social-container .social-logo {
     width: 40px;
@@ -80,4 +109,7 @@
 footer {
     background-color: greenyellow;
     height: 10vh;
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
 }
