@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+:root {
+    --black: #000;
+    --white: #fff;
+}
+.navbar {
+    display: flex;
+    flex-direction: row-reverse;
+    position: fixed;
+    width: 100%;
+    background-color: lightblue;
+}
+.navbar ul {
+    display: flex;
+    background-color: lightcoral;
+    list-style: none;
+}
+.welcome-section {
+    background-color: lightgrey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.projects-section {
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.projects-section h2 {
+    width: 100%;
+    text-align: center;
+}
+.projects-section .project {
+    background-color: lightgreen;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+}
+.projects-section .project .project-img-container {
+    background-color: red;
+    height: 100%;
+}
+.projects-section .project .project-img-container .project-img {
+    width: 100%;
+    height: 90%;
+}
+.projects-section .project .project-img-container .project-title {
+    background-color: lightblue;
+    text-align: center;
+}
+.contact-section {
+    background-color: blue;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-section .social-links {
+    display: flex;
+    background-color: red;
+}
+.contact-section .social-links .social-container a{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+.contact-section .social-links .social-container .social-logo {
+    width: 40px;
+}
+footer {
+    background-color: greenyellow;
+    height: 10vh;
+}

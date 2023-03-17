@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Technical Support</title>
+  </head>
+  <body>
+    <div class="header-container">
+      <header id="header">
+        <h1 id="title">Technical Support</h1>
+      </header>
+      <p id="description">
+        Experiencing problems with your device? Please complete <span class="underline">the following form</span> so that we can gather information about the problem you are experiencing and provide you with the technical support you need.
+      </p>
+    </div>
+    <main>
+      <div class="container">
+        <form action="" id="survey-form">
+        <div class="form-area area1">
+          <label for="name" id="name-label"
+            >Name:
+            <input
+              type="text"
+              name="name"
+              id="name"
+              required
+              placeholder="Enter your name"
+            />
+          </label>
+          <label for="email" id="email-label"
+            >Email:
+            <input
+              type="email"
+              name="email"
+              id="email"
+              required
+              placeholder="Enter your email"
+            />
+          </label>
+          <label for="number" id="number-label"
+            >First two numbers of product serial:
+            <input
+              type="number"
+              name="serial-number"
+              id="number"
+              min="10"
+              max="99"
+              placeholder="(00) 0000 0000"
+            />
+        </div>
+        <div class="form-area area2">
+          </label>
+          <p class="question">Select the current issue:</p>
+          <select name="options" id="dropdown">
+            <option value="black-screen">Black screen</option>
+            <option value="damaged-battery">Damaged battery</option>
+            <option value="connectivity-issues">Connectivity issues</option>
+            <option value="other">Other</option>
+        </select>
+          <p class="question">Is it the first time?</p>
+            <label for="yes">
+            <input type="radio" name="first-time" id="yes" value="y" />Yes
+          </label>
+          <label for="no"
+            >
+            <input type="radio" name="first-time" id="no" value="n" />No
+          </label>
+          <label for="not-sure">
+            <input type="radio" name="first-time" id="not-sure" value="ns">Not sure
+          </label>
+          <p class="question final-question">If not, which are the nearest branchs from you?</p>
+          <label for="tc-north"
+            >
+            <input type="checkbox" name="tc-north" id="tc-north" value="tc-north" />TecSup <span class="dot">.</span> North <span class="dot">.</span> Main house
+          </label>
+          <label for="tc-west"
+            >
+            <input type="checkbox" name="tc-west" id="tc-west" value="tc-west" />TecSup <span class="dot">.</span> West
+          </label>
+          <label for="tc-southeast"
+            >
+            <input type="checkbox" name="tc-southeast" id="tc-southeast" value="tc-southeast" />TecSup <span class="dot">.</span> Southeast
+          </label>
+          <label for="tc-northeast"
+            >
+            <input type="checkbox" name="tc-northeast" id="tc-northeast" value="tc-northeast" />TecSup <span class="dot">.</span> Northeast
+          </label>
+        </div>
+        <div class="form-area area3">
+          <textarea 
+          name="textarea" 
+          id="textarea" 
+          cols="30" 
+          rows="5"
+          maxlength="200"
+          >Any other comments about your problem..</textarea>
+        </div>
+        <div class="form-area area4">
+          <button id="submit">Submit</button>
+        </div>
+        </form>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="foot-info">
+        <p>&copy; 2023 TecSupport - this is a fake form but here's my instagram: <a href="https://www.instagram.com/_juanjoowendler/" target="_blank">@_juanjoowendler</a></p>
+      </div>
+    </footer>
+  </body>
+</html>

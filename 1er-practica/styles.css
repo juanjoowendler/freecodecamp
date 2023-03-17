@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace, sans-serif;
+}
+:root {
+    --main-dark: #000;
+    --main-white: #fff;
+    --main-color: #5086c1;
+    --main-color-hover: #3c71aa;
+    --gray: #b0b0b06b;
+}
+html {
+    font-size: 10px;
+}
+.header-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: var(--main-white);
+    background-color: var(--main-color);
+}
+    #header {
+        padding: 2rem 0;
+    }
+        #title {
+            text-transform: uppercase;
+            font-size: 3.5rem;
+        }
+    #description {
+        margin-top: -2rem;
+        padding: 1rem 25% 2rem 25%;
+        font-size: 1.6rem;
+    }
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gray);
+}
+input, select, textarea {
+    font-size: 1.6rem;
+    border: none;
+    background-color: var(--gray);
+}
+.dot {
+    font-weight: bold;
+}
+.underline {
+    text-decoration: underline;
+}
+    #survey-form {
+        width: 40rem;
+        margin: 2rem 0;
+        font-size: 1.6rem;
+        border-right: .5rem solid var(--main-color);
+        background-color: var(--main-white);
+    }
+        .form-area {
+            margin: 1rem;
+            padding: .5rem;
+        }
+        .area1 {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-bottom: 0;
+        }
+        .area1 #name, #email, #number {
+            margin: .5rem 0 1rem 0;
+            padding: .5rem;
+            width: 100%;
+        }
+        .area2 {
+            display: flex;
+            flex-direction: column;
+            margin-top: 0;
+        }
+            .question {
+                margin: .5rem 0 .8rem 0;
+            }
+            .final-question {
+                margin-top: 2rem;
+            }
+            #dropdown {
+                text-align: center;
+                margin: 0 2rem 2rem 2rem;
+                padding: .5rem;
+            }
+            .area2 input {
+                margin: 0 1rem;
+                vertical-align: center;
+            }
+            .area2 #option1 {
+                margin-bottom: .8rem;
+            }
+            .area2 input[type="checkbox"] {
+                margin-bottom: .8rem;
+            }
+        .area3 {
+            padding: 1rem;
+        }
+            #textarea {
+                padding: .5rem;
+                min-height: 13rem;
+                min-width: 100%;
+                max-width: 36rem;
+                max-height: 13rem;
+            }
+        .area4 {
+            display: flex;
+            justify-content: end;
+        }
+            #submit {
+                padding: .5rem 3rem;
+                font-size: 1.6rem;
+                border: .1rem solid var(--main-dark);
+                margin-right: .3rem;
+                color: var(--main-white);
+                border: none;
+                font-weight: bold;
+                background-color: var(--main-color);
+            }
+            #submit:hover {
+                background-color: var(--main-color-hover);
+            }
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 .8rem 0;
+    font-size: 1.2rem;
+    background-color: var(--gray);
+}
+    .foot-info a {
+        color: inherit;
+        text-decoration: none;
+    }
+    .foot-info a:hover {
+        color: var(--main-color);
+    }

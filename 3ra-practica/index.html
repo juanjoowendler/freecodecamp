@@ -1,0 +1,1456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <header>Linux Commands</header>
+      <ul>
+        <li>
+          <a href="#sudo_command" class="nav-link" id="nav-bar-link-1"
+            >sudo command</a
+          >
+        </li>
+        <li>
+          <a href="#pwd_command" class="nav-link" id="nav-bar-link-2"
+            >pwd command</a
+          >
+        </li>
+        <li>
+          <a href="#cd_command" class="nav-link" id="nav-bar-link-3"
+            >cd command</a
+          >
+        </li>
+        <li>
+          <a href="#ls_command" class="nav-link" id="nav-bar-link-4"
+            >ls command</a
+          >
+        </li>
+        <li>
+          <a href="#cat_command" class="nav-link" id="nav-bar-link-5"
+            >cat command</a
+          >
+        </li>
+        <li>
+          <a href="#cp_command" class="nav-link" id="nav-bar-link-6"
+            >cp command</a
+          >
+        </li>
+        <li>
+          <a href="#mv_command" class="nav-link" id="nav-bar-link-7"
+            >mv command</a
+          >
+        </li>
+        <li>
+          <a href="#mkdir_command" class="nav-link" id="nav-bar-link-8"
+            >mkdir command</a
+          >
+        </li>
+        <li>
+          <a href="#rmdir_command" class="nav-link" id="nav-bar-link-9"
+            >rmdir command</a
+          >
+        </li>
+        <li>
+          <a href="#rm_command" class="nav-link" id="nav-bar-link-10"
+            >rm command</a
+          >
+        </li>
+        <li>
+          <a href="#touch_command" class="nav-link" id="nav-bar-link-11"
+            >touch command</a
+          >
+        </li>
+        <li>
+          <a href="#locate_command" class="nav-link" id="nav-bar-link-12"
+            >locate command</a
+          >
+        </li>
+        <li>
+          <a href="#find_command" class="nav-link" id="nav-bar-link-13"
+            >find command</a
+          >
+        </li>
+        <li>
+          <a href="#grep_command" class="nav-link" id="nav-bar-link-14"
+            >grep command</a
+          >
+        </li>
+        <li>
+          <a href="#df_command" class="nav-link" id="nav-bar-link-15"
+            >df command</a
+          >
+        </li>
+        <li>
+          <a href="#du_command" class="nav-link" id="nav-bar-link-16"
+            >du command</a
+          >
+        </li>
+        <li>
+          <a href="#head_command" class="nav-link" id="nav-bar-link-17"
+            >head command</a
+          >
+        </li>
+        <li>
+          <a href="#tail_command" class="nav-link" id="nav-bar-link-18"
+            >tail command</a
+          >
+        </li>
+        <li>
+          <a href="#diff_command" class="nav-link" id="nav-bar-link-19"
+            >diff command</a
+          >
+        </li>
+        <li>
+          <a href="#tar_command" class="nav-link" id="nav-bar-link-20"
+            >tar command</a
+          >
+        </li>
+        <li>
+          <a href="#chmod_command" class="nav-link" id="nav-bar-link-21"
+            >chmod command</a
+          >
+        </li>
+        <li>
+          <a href="#chown_command" class="nav-link" id="nav-bar-link-22"
+            >chown command</a
+          >
+        </li>
+        <li>
+          <a href="#jobs_command" class="nav-link" id="nav-bar-link-23"
+            >jobs command</a
+          >
+        </li>
+        <li>
+          <a href="#kill_command" class="nav-link" id="nav-bar-link-24"
+            >kill command</a
+          >
+        </li>
+        <li>
+          <a href="#ping_command" class="nav-link" id="nav-bar-link-25"
+            >ping command</a
+          >
+        </li>
+        <li>
+          <a href="#wget_command" class="nav-link" id="nav-bar-link-26"
+            >wget command</a
+          >
+        </li>
+        <li>
+          <a href="#uname_command" class="nav-link" id="nav-bar-link-27"
+            >uname command</a
+          >
+        </li>
+        <li>
+          <a href="#top_command" class="nav-link" id="nav-bar-link-28"
+            >top command</a
+          >
+        </li>
+        <li>
+          <a href="#history_command" class="nav-link" id="nav-bar-link-29"
+            >history command</a
+          >
+        </li>
+        <li>
+          <a href="#man_command" class="nav-link" id="nav-bar-link-30"
+            >man command</a
+          >
+        </li>
+        <li>
+          <a href="#echo_command" class="nav-link" id="nav-bar-link-31"
+            >echo command</a
+          >
+        </li>
+        <li>
+          <a href="#zip-unzip_commands" class="nav-link" id="nav-bar-link-32"
+            >zip-unzip commands</a
+          >
+        </li>
+        <li>
+          <a href="#hostname_command" class="nav-link" id="nav-bar-link-33"
+            >hostname command</a
+          >
+        </li>
+        <li>
+          <a
+            href="#useradd-userdel_commands"
+            class="nav-link"
+            id="nav-bar-link-34"
+            >useradd-userdel commands</a
+          >
+        </li>
+        <li>
+          <a href="#apt-get_command" class="nav-link" id="nav-bar-link-35"
+            >apt-get command</a
+          >
+        </li>
+        <li>
+          <a href="#nano-vi-jed_commands" class="nav-link" id="nav-bar-link-36"
+            >nano-vi-jed commands</a
+          >
+        </li>
+        <li>
+          <a
+            href="#alias-unalias_commands"
+            class="nav-link"
+            id="nav-bar-link-37"
+            >alias-unalias commands</a
+          >
+        </li>
+        <li>
+          <a href="#su_command" class="nav-link" id="nav-bar-link-38"
+            >su command</a
+          >
+        </li>
+        <li>
+          <a href="#htop_command" class="nav-link" id="nav-bar-link-39"
+            >htop command</a
+          >
+        </li>
+        <li>
+          <a href="#ps_command" class="nav-link" id="nav-bar-link-40"
+            >ps command</a
+          >
+        </li>
+      </ul>
+    </nav>
+
+    <main class="main-doc" id="main-doc">
+      <h1>40 Essential Linux Commands That Every User Should Know</h1>
+      
+      <section class="main-section" id="sudo_command">
+        <header>
+          <h2>sudo command</h2>
+        </header>
+
+        <p>
+          Short for superuser do<strong>,</strong> <strong>sudo </strong>is one
+          of the most popular basic Linux commands that lets you perform tasks
+          that require administrative or root permissions.
+        </p>
+        <p>
+          When using sudo, the system will prompt users to authenticate
+          themselves with a password. Then, the Linux system will log a
+          timestamp as a tracker. By default, every root user can run sudo
+          commands for
+          <strong>15 minutes/session</strong>.
+        </p>
+        <p>
+          If you try to run sudo in the command line without authenticating
+          yourself, the system will log the activity as a security event.
+        </p>
+        <p>Here’s the general syntax:</p>
+        <span class="command-syn"
+          ><p>sudo (command)</p></span
+        >
+        <p>You can also add an option, such as:</p>
+        <ul class="command-options">
+          <li>
+            <strong>-k</strong> or <strong>–reset-timestamp</strong> invalidates
+            the timestamp file.
+          </li>
+          <li>
+            <strong>-g</strong> or <strong>–group=group</strong> runs commands
+            as a specified group name or ID.
+          </li>
+          <li>
+            <strong>-h</strong> or <strong>–host=host</strong> runs commands on
+            the host.
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="pwd_command">
+        <header>
+          <h2>pwd command</h2>
+        </header>
+
+        <p>
+          Use the <strong>pwd </strong>command to find the path of your current
+          working directory. Simply entering <strong>pwd</strong> will return
+          the full current path – a path of all the directories that starts with
+          a forward slash (<strong>/</strong>). For example,
+          <strong>/home/username</strong>.
+        </p>
+        <p>The <strong>pwd </strong>command uses the following syntax:</p>
+        <span class="command-syn"
+          ><p>pwd [option]</p></span
+        >
+        <p>It has two acceptable options:</p>
+        <ul class="command-options">
+          <li>
+            <strong>-L</strong> or <strong>–logical</strong> prints environment
+            variable content, including symbolic links.
+          </li>
+          <li>
+            <strong>-P</strong> or <strong>–physical</strong> prints the actual
+            path of the current directory.
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="cd_command">
+        <header>
+          <h2>cd command</h2>
+        </header>
+
+        <p>
+          To navigate through the Linux files and directories, use the
+          <strong>cd</strong> command. Depending on your current working
+          directory, it requires either the full path or the directory name.
+        </p>
+        <p>
+          Running this command without an option will take you to the home
+          folder. Keep in mind that only users with
+          <strong>sudo </strong>privileges can execute it.
+        </p>
+        <p>
+          Let’s say you’re in <strong>/home/username/Documents</strong> and want
+          to go to <strong>Photos</strong>, a subdirectory of
+          <strong>Documents</strong>. To do so, enter the following command:
+        </p>
+        <p><code>~$ cd Photos</code></p>
+        <p>
+          If you want to switch to a completely new directory, for example,
+          <strong>/home/username/Movies</strong>, you have to enter
+          <strong>cd</strong> followed by the directory’s absolute path:
+        </p>
+        <p><code>~$ cd /home/username/Movies</code></p>
+        <p>Here are some shortcuts to help you navigate:</p>
+        <ul class="command-options">
+          <li>
+            <strong>cd ~[username] </strong>goes to another user’s home
+            directory.
+          </li>
+          <li><strong>cd ..</strong> moves one directory up.</li>
+          <li><strong>cd-</strong> moves to your previous directory.</li>
+        </ul>
+      </section>
+      <section class="main-section" id="ls_command">
+        <header>
+          <h2>ls command</h2>
+        </header>
+
+        <p>
+          The<strong> ls</strong> command lists files and directories within a
+          system. Running it without a flag or parameter will show the current
+          working directory’s content.
+        </p>
+        <p>
+          To see other directories’ content, type <strong>ls</strong> followed
+          by the desired path. For example, to view files in the
+          <strong>Documents </strong>folder, enter:
+        </p>
+        <p><strong>ls</strong> <strong>/home/username/Documents</strong></p>
+        <p>
+          Here are some options you can use with the
+          <strong>ls</strong> command:
+        </p>
+        <ul class="command-options">
+          <li>
+            <strong>ls -R</strong> lists all the files in the subdirectories.
+          </li>
+          <li>
+            <strong>ls -a</strong> shows hidden files in addition to the visible
+            ones.
+          </li>
+          <li>
+            <strong>ls -lh</strong> shows the file sizes in easily readable
+            formats, such as MB, GB, and TB.
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="cat_command">
+        <header>
+          <h2>cat command</h2>
+        </header>
+
+        <p>
+          Concatenate, or <strong>cat</strong>, is one of the most frequently
+          used Linux commands. It lists, combines, and writes file content to
+          the standard output. To run the cat command, type
+          <strong>cat</strong> followed by the file name and its extension. For
+          instance:
+        </p>
+        <p><code>~$ cat filename.txt</code> show file's content.</p>
+
+        <p><code>~$ cat &gt; filename.txt </code>creates a new file.</p>
+        <p>
+          <code>~$ cat filename1.txt filename2.txt &gt; filename3.txt </code
+          >merges <strong>filename[1,2].txt</strong>
+          and stores the output in
+          <strong>filename3.txt</strong>.
+        </p>
+        <p>
+          <code>~$ tac filename.txt </code>displays content in reverse order.
+        </p>
+      </section>
+      <section class="main-section" id="cp_command">
+        <header>
+          <h2>cp command</h2>
+        </header>
+
+        <p>
+          Use the <strong>cp </strong>command to copy files or directories and
+          their content. Take a look at the following use cases.
+        </p>
+        <p>
+          To copy one file from the current directory to another, enter
+          <strong>cp </strong>followed by the file name and the destination
+          directory. For example:
+        </p>
+        <p>
+          <code>~$ cp filename.txt</code>
+          <code>~$ /home/username/Documents</code>
+        </p>
+        <p>
+          To copy files to a directory, enter the file names followed by the
+          destination directory:
+        </p>
+        <p>
+          <code
+            >~$ cp filename1.txt filename2.txt filename3.txt
+            /home/username/Documents</code
+          >
+        </p>
+        <p>
+          To copy the content of a file to a new file in the same directory,
+          enter
+          <strong>cp </strong>followed by the source file and the destination
+          file:
+        </p>
+        <p><code>~$ cp filename1.txt filename2.txt</code></p>
+        <p>
+          To copy an entire directory, pass the <strong>-R </strong>flag before
+          typing the source directory, followed by the destination directory:
+        </p>
+        <p>
+          <code
+            >~$ cp -R /home/username/Documents
+            /home/username/Documents_backup</code
+          >
+        </p>
+      </section>
+      <section class="main-section" id="mv_command">
+        <header>
+          <h2>mv command</h2>
+        </header>
+
+        <p>
+          The primary use of the mv command is to move and rename files and
+          directories. Additionally, it doesn’t produce an output upon
+          execution.
+        </p>
+        <p>
+          Simply type <strong>mv</strong> followed by the filename and the
+          destination directory. For example, you want to move
+          <strong>filename.txt</strong> to the
+          <strong>/home/username/Documents</strong> directory:
+        </p>
+        <p><code>~$ mv filename.txt /home/username/Documents.</code></p>
+        <p>
+          You can also use the <strong>mv </strong>command to rename a file:
+        </p>
+        <span class="command-syn">
+          <p>mv old_filename.txt new_filename.txt</p></span
+        >
+      </section>
+      <section class="main-section" id="mkdir_command">
+        <header>
+          <h2>mkdir command</h2>
+        </header>
+
+        <p>
+          Use the <strong>mkdir</strong> command to create one or multiple
+          directories at once and set permissions for each of them. The user
+          executing this command must have the privilege to make a new folder in
+          the parent directory, or they may receive a permission denied error.
+        </p>
+        <p>Here’s the basic syntax:</p>
+        <span class="command-syn"
+          ><p>mkdir [option] directory_name</p></span
+        >
+        <p>
+          For example, you want to create a directory called
+          <strong>Music</strong>:
+        </p>
+        <p><code>~$ mkdir Music</code></p>
+        <p>
+          To make a new directory called <strong>Songs </strong>inside
+          <strong>Music</strong>, use this command:
+        </p>
+        <p><code>~$ mkdir Music/Songs</code></p>
+        <p>The <strong>mkdir </strong>command accepts many options, such as:</p>
+        <ul class="command-options">
+          <li>
+            <strong>-p</strong> or <strong>–parents</strong> create a directory
+            between two existing folders.
+          </li>
+          <li><strong>-m </strong>sets the file permissions.</li>
+          <li>
+            <strong>-v</strong> prints a message for each created directory.
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="rmdir_command">
+        <header>
+          <h2>rmdir command</h2>
+        </header>
+
+        <p>
+          To permanently delete an empty directory, use the rmdir command.
+          Remember that the user running this command should have
+          <strong>sudo </strong>privileges in the parent directory.
+        </p>
+        <p>
+          For example, you want to remove an empty subdirectory named
+          <strong>personal1 </strong>and its main folder <strong>mydir</strong>:
+        </p>
+        <p><code>~$ rmdir -p mydir/personal1</code></p>
+      </section>
+      <section class="main-section" id="rm_command">
+        <header>
+          <h2>rm command</h2>
+        </header>
+
+        <p>
+          The <strong>rm</strong> command is used to delete files within a
+          directory. Make sure that the user performing this command has write
+          permissions.
+        </p>
+        <p>
+          Remember the directory’s location as this will remove the file(s) and
+          you can’t undo it.
+        </p>
+        <p>Here’s the general syntax:</p>
+        <span class="command-syn"
+          ><p>rm filename</p></span
+        >
+        <p>To remove multiple files, enter the following command:</p>
+        <p><code>~$ rm filename1 filename2 filename3</code></p>
+        <p>Here are some acceptable options you can add:</p>
+        <ul class="command-options">
+          <li>
+            <strong>-i</strong> prompts system confirmation before deleting a
+            file.
+          </li>
+          <li>
+            <strong>-f</strong> allows the system to remove without a
+            confirmation.
+          </li>
+          <li>
+            <strong>-r</strong> deletes files and directories recursively.
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="touch_command">
+        <header>
+          <h2>touch command</h2>
+        </header>
+
+        <p>
+          The touch command allows you to create an empty file or generate and
+          modify a timestamp in the Linux command line.
+        </p>
+        <p>
+          For example, enter the following command to create an HTML file named
+          <strong>Web</strong> in the <strong>Documents</strong> directory:
+        </p>
+        <p><code>~$ touch /home/username/Documents/Web.html</code></p>
+      </section>
+      <section class="main-section" id="locate_command">
+        <header>
+          <h2>locate command</h2>
+        </header>
+
+        <p>The locate command can find a file in the database system.</p>
+        <p>
+          Moreover, adding the <strong>-i</strong> argument will turn off case
+          sensitivity, so you can search for a file even if you don’t remember
+          its exact name.
+        </p>
+        <p>
+          To look for content that contains two or more words, use an asterisk
+          (<strong>*</strong>). For example:
+        </p>
+        <p><code>~$ locate -i school*not</code></p>
+        <p>
+          The command will search for files that contain the words
+          <strong>school </strong>and <strong>note</strong>, whether they use
+          uppercase or lowercase letters.
+        </p>
+      </section>
+      <section class="main-section" id="find_command">
+        <header>
+          <h2>find command</h2>
+        </header>
+
+        <p>
+          Use the <strong>find </strong>command to search for files within a
+          specific directory and perform subsequent operations. Here’s the
+          general syntax:
+        </p>
+        <span class="command-syn">
+          <p>find [option] [path] [expression]</p></span
+        >
+        <p>
+          For example, you want to look for a file called
+          <strong>notes.txt</strong> within the <strong>home</strong> directory
+          and its subfolders:
+        </p>
+        <p><code>~$ find /home -name notes.txt</code></p>
+        <p>Here are other variations when using <strong>find</strong>:</p>
+        <p>
+          <code>~$ find -name filename.txt </code>to find files in the current
+          directory.
+        </p>
+
+        <p>
+          <code>~$ find ./ -type d -name directory_name </code>to look for
+          directories.
+        </p>
+      </section>
+      <section class="main-section" id="grep_command">
+        <header>
+          <h2>grep command</h2>
+        </header>
+
+        <p>
+          Another basic Linux command on the list is <strong>grep </strong>or
+          global regular expression print. It lets you find a word by searching
+          through all the texts in a specific file.
+        </p>
+        <p>
+          Once the grep command finds a match, it prints all lines that contain
+          the specific pattern. This command helps filter through large log
+          files.
+        </p>
+        <p>
+          For example, you want to search for the word <strong>blue </strong>in
+          the <strong>notepad.txt</strong> file:
+        </p>
+        <p><code>~$ grep blue notepad.txt</code></p>
+        <p>
+          The command’s output will display lines that contain
+          <strong>blue</strong>.
+        </p>
+      </section>
+      <section class="main-section" id="df_command">
+        <header>
+          <h2>df command</h2>
+        </header>
+
+        <p>
+          Use the df command to report the system’s disk space usage, shown in
+          percentage and kilobyte (KB). Here’s the general syntax:
+        </p>
+        <span class="command-syn"><p>df [options] [file]</p></span>
+        <p>
+          For example, enter the following command if you want to see the
+          current directory’s system disk space usage in a human-readable
+          format:
+        </p>
+        <p><code>~$ df -h</code></p>
+        <p>These are some acceptable options to use:</p>
+        <ul class="command-options">
+          <li>
+            <strong>df -m</strong> displays information on the file system usage
+            in <strong>MBs</strong>.
+          </li>
+          <li>
+            <strong>df -k</strong> displays file system usage in
+            <strong>KBs</strong>.
+          </li>
+          <li>
+            <strong>df -T</strong> shows the file system
+            <strong>type</strong> in a new column.
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="du_command">
+        <header>
+          <h2>du command</h2>
+        </header>
+
+        <p>
+          If you want to check how much space a file or a directory takes up,
+          use the <strong>du</strong> command. You can run this command to
+          identify which part of the system uses the storage excessively.
+        </p>
+        <p>
+          Remember, you must specify the directory path when using the
+          <strong>du </strong>command. For example, to check
+          <strong>/home/user/Documents </strong>enter:
+        </p>
+        <p><code>~$ du /home/user/Documents</code></p>
+        <p>
+          Adding a flag to the <strong>du </strong>command will modify the
+          operation, such as:
+        </p>
+        <ul class="command-options">
+          <li>
+            <strong>-s </strong>offers the total size of a specified folder.
+          </li>
+          <li>
+            <strong>-m </strong>provides folder and file information in
+            <strong>MB</strong>
+          </li>
+          <li>
+            <strong>k</strong> displays information in <strong>KB</strong>.
+          </li>
+          <li>
+            <strong>-h </strong>informs the last modification date of the
+            displayed folders and files.
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="head_command">
+        <header>
+          <h2>head command</h2>
+        </header>
+
+        <p>
+          The<strong> head</strong> command allows you to view the first ten
+          lines of a text. Adding an option lets you change the number of lines
+          shown. The <strong>head</strong> command<strong> </strong>is also used
+          to output piped data to the CLI.
+        </p>
+        <p>Here’s the general syntax:</p>
+        <span class="command-syn"
+          ><p>head [option] [file]</p></span
+        >
+        <p>
+          For instance, you want to view the first ten lines of
+          <strong>note.txt</strong>, located in the current directory:
+        </p>
+        <p><code>~$ head note.txt</code></p>
+        <p>Below are some options you can add:</p>
+        <ul class="command-options">
+          <li>
+            <strong>-n</strong> or <strong>–lines</strong> prints the first
+            customized number of lines.
+          </li>
+          <li>
+            <strong>-c</strong> or <strong>–bytes</strong> prints the first
+            customized number of bytes of each file.
+          </li>
+          <li>
+            <strong>-q</strong> or <strong>–quiet</strong> will not print
+            headers specifying the file name.
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="tail_command">
+        <header>
+          <h2>tail command</h2>
+        </header>
+
+        <p>
+          The tail command displays the last ten lines of a file. It allows
+          users to check whether a file has new data or to read error messages.
+        </p>
+        <p>Here’s the general format:</p>
+        <span class="command-syn"><p>tail [option] [file]</p></span>
+        <p>
+          For example, you want to show the last ten lines of the
+          <strong>colors.txt</strong> file:
+        </p>
+        <p><code>~$ tail -n colors.txt</code></p>
+      </section>
+      <section class="main-section" id="diff_command">
+        <header>
+          <h2>diff command</h2>
+        </header>
+
+        <p>
+          Short for difference, the <strong>diff</strong> command compares two
+          contents of a file line by line. After analyzing them, it will display
+          the parts that do not match.
+        </p>
+        <p>
+          Programmers often use the <strong>diff </strong>command to alter a
+          program instead of rewriting the entire source code.
+        </p>
+        <p>Here’s the general format:</p>
+        <span class="command-syn"><p>diff [option] file1 file2</p></span>
+        <p>
+          For example, you want to compare two text files –
+          <strong>note.txt</strong> and <strong>note_update.txt</strong>:
+        </p>
+        <p><code>~$ diff note.txt note_update.txt</code></p>
+        <p>Here are some acceptable options to add:</p>
+        <ul class="command-options">
+          <li>
+            <strong>-c</strong> displays the difference between two files in a
+            context form.
+          </li>
+          <li>
+            <strong>-u</strong> displays the output without redundant
+            information.
+          </li>
+          <li>
+            <strong>-i</strong> makes the <strong>diff </strong>command case
+            insensitive.
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="tar_command">
+        <header>
+          <h2>tar command</h2>
+        </header>
+
+        <p>
+          The tar command archives multiple files into a
+          <strong>TAR </strong>file<strong> </strong>– a common Linux format
+          similar to <strong>ZIP</strong>, with optional compression.
+        </p>
+        <p>Here’s the basic syntax:</p>
+        <span class="command-syn">
+          <p>
+            tar [options] [archive_file] [file or directory to be archived]
+          </p></span
+        >
+        <p>
+          For instance, you want to create a new <strong>TAR </strong>archive
+          named <strong>newarchive.tar</strong> in the
+          <strong>/home/user/Documents </strong>directory:
+        </p>
+        <p><code>~$ tar -cvf newarchive.tar /home/user/Documents</code></p>
+        <p>The <strong>tar </strong>command accepts many options, such as:</p>
+        <ul class="command-options">
+          <li><strong>-x</strong> extracts a file.</li>
+          <li><strong>-t</strong> lists the content of a file.</li>
+          <li>
+            <strong>-u</strong> archives and adds to an existing archive file.
+          </li>
+        </ul>
+        <p>
+          Check out the more practical examples to know more about the other
+          functions.
+        </p>
+      </section>
+      <section class="main-section" id="chmod_command">
+        <header>
+          <h2>chmod command</h2>
+        </header>
+
+        <p>
+          chmod is a common command that modifies a file or directory’s read,
+          write, and execute permissions. In Linux, each file is associated with
+          three user classes – <strong>owner</strong>,
+          <strong>group member</strong>, and <strong>others</strong>.
+        </p>
+        <p>Here’s the basic syntax:</p>
+        <span class="command-syn"
+          ><p>chmod [option] [permission] [file_name]</p></span
+        >
+        <p>
+          For example, the owner is currently the only one with full permissions
+          to change <strong>note.txt</strong>. To allow group members and others
+          to read, write, and execute the file, change it to the
+          <strong>-rwxrwxrwx</strong> permission type, whose numeric value is
+          <strong>777</strong>:
+        </p>
+        <p><code>~$ chmod 777 note.txt</code></p>
+        <p>This command supports many options, including:</p>
+        <ul class="command-options">
+          <li>
+            <strong>-c</strong> or <strong>–changes</strong> displays
+            information when a change is made.
+          </li>
+          <li>
+            <strong>-f</strong> or<strong> –silent</strong> suppresses the error
+            messages.
+          </li>
+          <li>
+            <strong>-v</strong> or <strong>–verbose</strong> displays a
+            diagnostic for each processed file.
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="chown_command">
+        <header>
+          <h2>chown command</h2>
+        </header>
+
+        <p>
+          The chown command lets you change the ownership of a file, directory,
+          or symbolic link to a specified username.
+        </p>
+        <p>Here’s the basic format:</p>
+        <span class="command-syn"
+          ><p>chown [option] owner[:group] file(s)</p></span
+        >
+        <p>
+          For example, you want to make <strong>linuxuser2 </strong>the owner of
+          <strong>filename.txt</strong>:
+        </p>
+        <p><code>~$ chown linuxuser2 filename.txt</code></p>
+      </section>
+      <section class="main-section" id="jobs_command">
+        <header>
+          <h2>jobs command</h2>
+        </header>
+
+        <p>
+          A job is a process that the shell starts. The
+          <strong>jobs</strong> command will display all the running processes
+          along with their statuses. Remember that this command is only
+          available in <strong>csh</strong>, <strong>bash</strong>,
+          <strong>tcsh</strong>, and <strong>ksh </strong>shells.
+        </p>
+        <p>This is the basic syntax:</p>
+        <span class="command-syn"> <p>jobs [options] jobID</p></span>
+        <p>
+          To check the status of jobs in the current shell, simply enter
+          <strong>jobs </strong>to the CLI.
+        </p>
+        <p>Here are some options you can use:</p>
+        <ul class="command-options">
+          <li>
+            <strong>-l</strong> lists process IDs along with their information.
+          </li>
+          <li>
+            <strong>-n </strong>lists jobs whose statuses have changed since the
+            last notification.
+          </li>
+          <li><strong>-p</strong> lists process IDs only.</li>
+        </ul>
+      </section>
+      <section class="main-section" id="kill_command">
+        <header>
+          <h2>kill command</h2>
+        </header>
+
+        <p>
+          Use the kill command to terminate an unresponsive program manually. It
+          will signal misbehaving applications and instruct them to close their
+          processes.
+        </p>
+        <p>
+          To kill a program, you must know its process identification number
+          (PID). If you don’t know the PID, run the following command:
+        </p>
+        <p><code>~$ ps ux</code></p>
+        <p>
+          After knowing what signal to use and the program’s PID, enter the
+          following syntax:
+        </p>
+        <span class="command-syn"><p>kill [signal_option] pid</p></span>
+        <p>
+          There are 64 signals that you can use, but these two are among the
+          most commonly used:
+        </p>
+        <ul>
+          <li>
+            <strong>SIGTERM </strong>requests a program to stop running and
+            gives it some time to save all of its progress. The system will use
+            this by default if you don’t specify the signal when entering the
+            kill command.
+          </li>
+          <li>
+            <strong>SIGKILL </strong>forces programs to stop, and you will lose
+            unsaved progress.
+          </li>
+        </ul>
+        <p>
+          For example, the program’s PID is <strong>63773</strong>,<strong
+          > </strong>and you want to force it to stop:
+        </p>
+        <p><code>~$ kill SIGKILL 63773</code></p>
+      </section>
+      <section class="main-section" id="ping_command">
+        <header>
+          <h2>ping command</h2>
+        </header>
+
+        <p>
+          The
+          <strong>ping</strong> command is one of the most used basic Linux
+          commands for checking whether a network or a server is reachable. In
+          addition, it is used to troubleshoot various connectivity issues.
+        </p>
+        <p>Here’s the general format:</p>
+        <span class="command-syn"
+          ><p>ping [option] [hostname_or_IP_address]</p></span
+        >
+        <p>
+          For example, you want to know whether you can connect to
+          <strong>Google</strong> and measure its response time:
+        </p>
+        <p><code>~$ ping google.com</code></p>
+      </section>
+      <section class="main-section" id="wget_command">
+        <header>
+          <h2>wget command</h2>
+        </header>
+
+        <p>
+          The Linux command line lets you download files from the internet using
+          the wget command. It works in the background without hindering other
+          running processes.
+        </p>
+        <p>
+          The <strong>wget </strong>command retrieves files using HTTP, HTTPS,
+          and FTP protocols. It can perform recursive downloads, which transfer
+          website parts by following directory structures and links, creating
+          local versions of the web pages.
+        </p>
+        <p>To use it, enter the following command:</p>
+        <span class="command-syn"><p>wget [option] [url]</p></span>
+        <p>
+          For example, enter the following command to download the latest
+          version of WordPress:
+        </p>
+        <p><code>~$ wget https://wordpress.org/latest.zip</code></p>
+      </section>
+      <section class="main-section" id="uname_command">
+        <header>
+          <h2>uname command</h2>
+        </header>
+
+        <p>
+          The <strong>uname</strong> or unix name command will print detailed
+          information about your Linux system and hardware. This includes the
+          machine name, operating system, and kernel. To run this command,
+          simply enter <strong>uname </strong>into your CLI.
+        </p>
+        <p>Here’s the basic syntax:</p>
+        <span class="command-syn"> <p>uname [option]</p></span>
+        <p>These are the acceptable options to use:</p>
+        <ul class="command-options">
+          <li><strong>-a</strong> prints all the system information.</li>
+          <li><strong>-s</strong> prints the kernel name.</li>
+          <li><strong>-n</strong> prints the system’s node hostname.</li>
+        </ul>
+      </section>
+      <section class="main-section" id="top_command">
+        <header>
+          <h2>top command</h2>
+        </header>
+
+        <p>
+          The <strong>top</strong> command in Linux Terminal will display all
+          the running processes and a dynamic real-time view of the current
+          system. It sums up the resource utilization, from CPU to memory usage.
+        </p>
+        <p>
+          The <strong>top </strong>command can also help you identify and
+          terminate a process that may use too many system resources.
+        </p>
+        <p>
+          To run the command, simply enter <strong>top </strong>into the CLI.
+        </p>
+      </section>
+      <section class="main-section" id="history_command">
+        <header>
+          <h2>history command</h2>
+        </header>
+
+        <p>
+          With <strong>history</strong>, the system will list up to 500
+          previously executed commands, allowing you to reuse them without
+          re-entering. Keep in mind that only users with
+          <strong>sudo </strong>privileges can execute this command. How this
+          utility runs also depends on which Linux shell you use.
+        </p>
+        <p>To run it, enter the command below:</p>
+        <span class="command-syn"><p>history [option]</p></span>
+        <p>This command supports many options, such as:</p>
+        <ul class="command-options">
+          <li><strong>-c</strong> clears the complete history list.</li>
+          <li>
+            <strong>-d</strong> <strong>offset </strong>deletes the history
+            entry at the <strong>OFFSET </strong>position.
+          </li>
+          <li><strong>-a</strong> appends history lines.</li>
+        </ul>
+      </section>
+      <section class="main-section" id="man_command">
+        <header>
+          <h2>man command</h2>
+        </header>
+
+        <p>
+          The <strong>man </strong>command provides a user manual of any
+          commands or utilities you can run in Terminal, including the name,
+          description, and options.
+        </p>
+        <p>It consists of nine sections:</p>
+        <ul class="numeric-list">
+          <li>Executable programs or shell commands</li>
+          <li>System calls</li>
+          <li>Library calls</li>
+          <li>Games</li>
+          <li>Special files</li>
+          <li>File formats and conventions</li>
+          <li>System administration commands</li>
+          <li>Kernel routines</li>
+          <li>Miscellaneous</li>
+        </ul>
+        <p>To display the complete manual, enter:</p>
+        <span class="command-syn"><p>man [command_name]</p></span>
+        <p>
+          For example, you want to access the manual for the
+          <strong>ls </strong>command:
+        </p>
+        <p><code>~$ man ls</code></p>
+        <p>Enter this command if you want to specify the displayed section:</p>
+        <span class="command-syn"
+          ><p>man [option] [section_number] [command_name]</p></span
+        >
+        <p>
+          For instance, you want to see section 2 of the
+          <strong>ls </strong>command manual:
+        </p>
+        <p><code>~$ man 2 ls</code></p>
+      </section>
+      <section class="main-section" id="echo_command">
+        <header>
+          <h2>echo command</h2>
+        </header>
+
+        <p>
+          The <strong>echo </strong>command is a built-in utility that displays
+          a line of text or string using the standard output. Here’s the basic
+          syntax:
+        </p>
+        <span class="command-syn"> <p>echo [option] [string]</p></span>
+        <p>
+          For example, you can display the text
+          <strong>Hostinger Tutorials </strong>by entering:
+        </p>
+        <p><code>~$ echo “Hostinger Tutorials”</code></p>
+        <p>This command supports many options, such as:</p>
+        <ul class="command-options">
+          <li>
+            <strong>-n</strong> displays the output without the trailing
+            newline.
+          </li>
+          <li>
+            <strong>-e </strong>enables the interpretation of the following
+            backslash escapes:
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="zip-unzip_commands">
+        <header>
+          <h2>zip-unzip commands</h2>
+        </header>
+
+        <p>
+          Use the <strong>zip</strong> command to compress your files into a
+          <strong>ZIP </strong>file, a universal format commonly used on Linux.
+          It can automatically choose the best compression ratio.
+        </p>
+        <p>
+          The <strong>zip </strong>command is also useful for archiving files
+          and directories and reduscing disk usage.
+        </p>
+        <p>To use it, enter the following syntax:</p>
+        <span class="command-syn">
+          <p>zip [options] zipfile file1 file2…</p></span
+        >
+        <p>
+          For example, you have a file named <strong>note.txt </strong>that you
+          want to compress into <strong>archive.zip </strong>in the current
+          directory:
+        </p>
+        <p><code>~$ zip archive.zip note.txt</code></p>
+        <p>
+          On the other hand, the
+          <strong>unzip</strong> command extracts the zipped files from an
+          archive. Here’s the general format:
+        </p>
+        <span class="command-syn"><p>unzip [option] file_name.zip</p></span>
+        <p>
+          So, to unzip a file called <strong>archive.zip </strong>in the current
+          directory, enter:
+        </p>
+        <p><code>~$ unzip archive.zip</code></p>
+      </section>
+      <section class="main-section" id="hostname_command">
+        <header>
+          <h2>hostname command</h2>
+        </header>
+
+        <p>
+          Run the <strong>hostname </strong>command to know the system’s
+          hostname. You can execute it with or without an option. Here’s the
+          general syntax:
+        </p>
+        <span class="command-syn"> <p>hostname [option]</p></span>
+        <p>There are many optional flags to use, including:</p>
+        <ul class="command-options">
+          <li>
+            <strong>-a</strong> or <strong>–alias</strong> displays the
+            hostname’s alias.
+          </li>
+          <li>
+            <strong>-A</strong> or <strong>–all-fqdns</strong> displays the
+            machine’s Fully Qualified Domain Name (FQDN).
+          </li>
+          <li>
+            <strong>-i</strong> or <strong>–ip-address</strong> displays the
+            machine’s IP address.
+          </li>
+        </ul>
+        <p>
+          For example, enter the following command to know your computer’s IP
+          address:
+        </p>
+        <p><code>~$ hostname -i</code></p>
+      </section>
+      <section class="main-section" id="useradd-userdel_commands">
+        <header>
+          <h2>useradd-userdel commands</h2>
+        </header>
+
+        <p>
+          Linux is a multi-user system, meaning more than one person can use it
+          simultaneously. <strong>useradd </strong>is used to create a new
+          account, while the <strong>passwd </strong>command allows you to add a
+          password. Only those with root privileges or <strong>sudo </strong>can
+          run the <strong>useradd</strong> command.
+        </p>
+        <p>
+          When you use the <strong>useradd </strong>command, it performs some
+          major changes:
+        </p>
+        <ul class="numeric-list">
+          <li>
+            Edits the <strong>/etc/passwd</strong>,
+            <strong>/etc/shadow</strong>, <strong>/etc/group</strong>, and
+            <strong>/etc/gshadow</strong> files for the newly created accounts.
+          </li>
+          <li>Creates and populates a home directory for the user.</li>
+          <li>Sets file permissions and ownerships to the home directory.</li>
+        </ul>
+        <p>Here’s the basic syntax:</p>
+        <span class="command-syn"> <p>useradd [option] username</p></span>
+        <p>To set the password:</p>
+        <span class="command-syn"> <p>passwd the_password_combination</p></span>
+        <p>
+          For example, to add a new person named John, enter the following
+          command simultaneously:
+        </p>
+        <p><code>~$ useradd John</code></p>
+        <p><code>~$ passwd 123456789</code></p>
+        <p>
+          To delete a user account, use the <strong>userdel</strong> command:
+        </p>
+        <p><code>~$ userdel username</code></p>
+      </section>
+      <section class="main-section" id="apt-get_command">
+        <header>
+          <h2>apt-get command</h2>
+        </header>
+
+        <p>
+          <strong>apt-get</strong> is a command line tool for handling Advanced
+          Package Tool (APT) libraries in Linux. It lets you retrieve
+          information and bundles from authenticated sources to manage, update,
+          remove, and install software and its dependencies.
+        </p>
+        <p>
+          Running the <strong>apt-get </strong>command requires you to use
+          <strong>sudo</strong> or root privileges.
+        </p>
+        <p>Here’s the main syntax:</p>
+        <span class="command-syn"> <p>apt-get [options] (command)</p></span>
+        <p>
+          These are the most common commands you can add to
+          <strong>apt-get</strong>:
+        </p>
+        <ul class="command-options">
+          <li>
+            <strong>update </strong>synchronizes the package files from their
+            sources.
+          </li>
+          <li>
+            <strong>upgrade </strong>installs the latest version of all
+            installed packages.
+          </li>
+          <li>
+            <strong>check </strong>updates the package cache and checks broken
+            dependencies.
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="nano-vi-jed_commands">
+        <header>
+          <h2>nano-vi-jed commands</h2>
+        </header>
+
+        <p>
+          Linux allows users to edit and manage files via a text editor, such as
+          <strong>nano</strong>, <strong>vi</strong>, or <strong>jed</strong>.
+          <strong>nano </strong>and <strong>vi</strong> come with the operating
+          system, while <strong>jed </strong>has to be installed.
+        </p>
+        <p>
+          The nano command denotes keywords and can work with most languages. To
+          use it, enter the following command:
+        </p>
+        <span class="command-syn"><p>nano [filename]</p></span>
+        <p>
+          <strong>vi </strong>uses two operating modes to work –
+          <strong>insert </strong>and <strong>command</strong>.
+          <strong>insert</strong> is used to edit and create a text file. On the
+          other hand, the <strong>command</strong> performs operations, such as
+          saving, opening, copying, and pasting a file.
+        </p>
+        <p>To use <strong>vi </strong>on a file, enter:</p>
+        <span class="command-syn"><p>vi [filename]</p></span>
+        <p>
+          <strong>jed</strong> has a drop-down menu interface that allows users
+          to perform actions without entering keyboard combinations or commands.
+          Like <strong>vi</strong>, it has modes to load modules or plugins to
+          write specific texts.
+        </p>
+        <p>
+          To open the program, simply enter <strong>jed </strong>to the command
+          line.
+        </p>
+      </section>
+      <section class="main-section" id="alias-unalias_commands">
+        <header>
+          <h2>alias-unalias commands</h2>
+        </header>
+
+        <p>
+          <strong>alias </strong>allows you to create a shortcut with the same
+          functionality as a command, file name, or text. When executed, it
+          instructs the shell to replace one string with another.
+        </p>
+        <p>To use the <strong>alias </strong>command, enter this syntax:</p>
+        <span class="command-syn"><p>alias Name=String</p></span>
+        <p>
+          For example, you want to make <strong>k </strong>the alias for the
+          <strong>kill </strong>command:
+        </p>
+        <span class="command-syn"><p>alias k=’kill’</p></span>
+        <p>
+          On the other hand, the <strong>unalias </strong>command deletes an
+          existing alias.
+        </p>
+        <p>Here’s what the general syntax looks like:</p>
+        <span class="command-syn"> <p>unalias [alias_name]</p></span>
+      </section>
+      <section class="main-section" id="su_command">
+        <header>
+          <h2>su command</h2>
+        </header>
+
+        <p>
+          The switch user or <strong>su</strong> command allows you to run a
+          program as a different user. It changes the administrative account in
+          the current log-in session. This command is especially beneficial for
+          accessing the system through SSH or using the GUI display manager when
+          the root user is unavailable.
+        </p>
+
+        <p>Here’s the general syntax of the command:</p>
+        <span class="command-syn">
+          <p>su [options] [username [argument]]</p></span
+        >
+        <p>
+          When executed without any option or argument, the
+          <strong>su </strong>command runs through root privileges. It will
+          prompt you to authenticate and use the
+          <strong>sudo </strong>privileges temporarily.
+        </p>
+        <p>Here are some acceptable options to use:</p>
+        <ul class="command-options">
+          <li>
+            <strong>-p</strong> or <strong>–preserve-environment </strong>keeps
+            the same shell environment, consisting HOME, SHELL, USER, and
+            LOGNAME.
+          </li>
+          <li>
+            <strong>-s</strong> or <strong>–shell</strong> lets you specify a
+            different shell environment to run.
+          </li>
+          <li>
+            <strong>-l </strong>or <strong>–login </strong>runs a login script
+            to switch to a different username. Executing it requires you to
+            enter the user’s password.
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="htop_command">
+        <header>
+          <h2>htop command</h2>
+        </header>
+
+        <p>
+          The <strong>htop </strong>command is an interactive program that
+          monitors system resources and server processes in real time. It is
+          available on most Linux distributions, and you can install it using
+          the default package manager.
+        </p>
+        <p>
+          Compared to the <strong>top </strong>command,
+          <strong>htop </strong>has many improvements and additional features,
+          such as mouse operation and visual indicators.
+        </p>
+        <p>To use it, run the following command:</p>
+        <span class="command-syn"><p>htop [options]</p></span>
+        <p>You can also add options, such as:</p>
+        <ul class="command-options">
+          <li>
+            <strong>-d </strong>or <strong>–delay</strong> shows the delay
+            between updates in tenths of seconds.
+          </li>
+          <li>
+            <strong>-C </strong>or <strong>–no-color </strong>enables the
+            monochrome mode.
+          </li>
+          <li>
+            <strong>-h </strong>or <strong>–help</strong> displays the help
+            message and exit.
+          </li>
+        </ul>
+      </section>
+      <section class="main-section" id="ps_command">
+        <header>
+          <h2>ps command</h2>
+        </header>
+
+        <p>
+          The process status or <strong>ps</strong> command produces a snapshot
+          of all running processes in your system. The static results are taken
+          from the virtual files in the <strong>/proc</strong> file system.
+        </p>
+        <p>
+          Executing the <strong>ps </strong>command without an option or
+          argument will list the running processes in the shell along with:
+        </p>
+        <ul>
+          <li>The unique process ID (<strong>PID</strong>)</li>
+          <li>The type of the terminal (<strong>TTY</strong>)</li>
+          <li>The running time (<strong>TIME</strong>)</li>
+          <li>The command that launches the process (<strong>CMD</strong>)</li>
+        </ul>
+        <p>Here are some acceptable options you can use:</p>
+        <ul class="command-options">
+          <li>
+            <strong>-T</strong> displays all processes associated with the
+            current shell session.
+          </li>
+          <li>
+            <strong>-u username</strong> lists processes associated with a
+            specific user.
+          </li>
+          <li>
+            <strong>-A </strong>or <strong>-e</strong> shows all the running
+            processes.
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
+</html>

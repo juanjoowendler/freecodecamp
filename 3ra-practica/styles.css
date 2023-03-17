@@ -1,0 +1,137 @@
+:root {
+    --self-background-color: #eee;
+    --self-border-color: #ddd;
+    --self-black: #00000f;
+    --self-middle-dark-purple: #49599f;
+    --self-light-purple: #dcc7ff;
+    --self-syn-green: #aaeaaa;
+}
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html, body {
+    margin: 0;
+    font-family: sans-serif;
+    font-size: 10px; 
+    background-color: var(--self-background-color);
+    color: var(--self-black);
+}
+
+/*nav bar*/
+#navbar header {
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 3rem 0 1rem 0;
+    text-align: center;
+}
+
+#navbar {
+    position: fixed;
+    width: 300px;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    font-size: 1.7rem;
+    overflow: auto;
+    border-right: .20rem solid var(--self-border-color)
+}
+
+#navbar ul {
+    padding: 0;
+    margin: 2rem;
+}
+
+#navbar ul li {
+    list-style: none;
+    padding: .5rem .2rem .5rem .2rem;
+    border-top: .1rem solid var(--self-border-color);
+}
+
+#navbar ul li a {
+    text-decoration-line: none;
+    color: var(--self-black);
+}
+
+#navbar ul li a:hover {
+    color: var(--self-middle-dark-purple);
+}
+
+/*content*/
+
+h1 {
+    margin: 3rem;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+.introduction, .main-doc {
+    font-size: 1.7rem;
+    position: absolute;
+    left: 300px;
+    margin: auto 3rem auto 3rem;
+    min-width: 300px; 
+}
+
+.command-options {
+    list-style: none inside;
+    border-radius: .5rem;
+    padding: 1rem;
+    width: fit-content;
+    background-color: var(--self-light-purple);
+}
+
+.command-syn p {
+    padding: 0;
+    margin: 0;
+}
+
+.command-syn {
+    display: block;
+    border-radius: .5rem;
+    width: fit-content;
+    padding: .5rem 1rem;
+    background-color: var(--self-syn-green);
+}
+
+.main-doc ul li {
+    line-height: 1.3;
+}
+
+.numeric-list {
+    list-style: decimal;
+}
+
+code {
+    background-color: var(--self-border-color);
+}
+
+/* media query for the navbar */
+@media (max-width: 800px) {
+    #navbar {
+        position: absolute;
+        width: 100vw;
+        height: 300px;
+        top: 0;
+        left: 0;
+        font-size: 1.7rem;
+        overflow: auto;
+        border-bottom: .20rem solid var(--self-border-color);
+    }
+
+    .introduction, .main-doc {
+        font-size: 1.7rem;
+        position: d;
+        top: 300px;
+        left: 0px;
+        margin: auto 3rem auto 3rem; 
+    }
+
+}
+
