@@ -6,19 +6,20 @@
     scroll-behavior: smooth;
 }
 :root {
-    --black: #000;
-    --black2: #0d1117;
-    --black3: #010409;
-    --black4: #161b22;
     --white: #fff;
-    --orange: #f78166;
-    --green: #238636;
-    --green-hover: #2ea043;
+    --background-color: #161b22;
+    --top-color: #283d3d;
+    --end-color: #365252;
+    --hover-color: #ffffff0c;
     --blue: #58a6ff;
 }
+html {
+    font-size: 10px;
+}
 body {
-    background-color: var(--black3);
+    font-size: 1.6rem;
     color: var(--white);
+    background-color: var(--background-color);
 }
 a {
     text-decoration: none;
@@ -30,28 +31,47 @@ a {
     position: fixed;
     width: 100%;
     height: 10vh;
-    background-color: var(--black4);
-    /* background-color: lightblue; */
+    background-color: var(--top-color);
+    z-index: 1;
 }
 .navbar ul {
     display: flex;
     align-items: center;
-    gap: 10px;
     list-style: none;
     text-transform: capitalize;
-    padding: 10px;
-    /* background-color: lightcoral; */
+    padding: 1rem;
+    margin-right: 1rem;
+}
+.navbar ul li {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    padding: 1rem;
+}
+.navbar ul li:hover {
+    background-color: var(--hover-color);
 }
 .welcome-section {
-    /* background-color: lightgrey; */
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     height: 100vh;
 }
+.welcome-section .welcome-container {
+    padding: 1rem;
+    border-right: .5rem solid var(--blue);
+}
+.welcome-section .welcome-container .h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+.welcome-section .welcome-container .sub {
+    display: block;
+    font-size: 2.5rem;
+    text-align: end;
+}
 .projects-section {
-    background-color: var(--black2);
-    /* background-color: lightpink; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -60,31 +80,53 @@ a {
 }
 .projects-section h2 {
     width: 100%;
+    font-size: 2.5rem;
     text-align: center;
     padding: 5vh 0;
-    text-transform: uppercase;
+}
+.projects-section h2 .underline {
+    border-bottom: .2rem solid var(--blue);
 }
 .projects-section .project {
-    background-color: lightgreen;
-    width: 500px;
-    height: 500px;
-    margin: 10px;
+    width: 45rem;
+    height: 45rem;
+    min-width: 45rem;
+    margin: 1rem;
+    border-radius: .5rem;
+}
+.projects-section .project:hover {
+    background-color: var(--hover-color);
 }
 .projects-section .project .project-img-container {
-    background-color: lightblue;
     height: 100%;
 }
 .projects-section .project .project-img-container .project-img {
     width: 100%;
     height: 90%;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+    opacity: 70%;
 }
-.projects-section .project .project-img-container .project-title {
-    /* background-color: lightblue; */
-    margin-top: 11px;
+.projects-section .project .project-img-container .project-tile {
+    margin-top: 1.1rem;
     text-align: center;
 }
+.projects-section .more {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+.projects-section .more a {
+    border-radius: .5rem;
+    padding: 1rem;
+}
+.projects-section .more a:hover {
+    background-color: var(--hover-color);
+}
 .contact-section {
-    background-color: blue;
+    background-color: var(--end-color);
     height: 90vh;
     display: flex;
     flex-direction: column;
@@ -93,23 +135,42 @@ a {
 }
 .contact-section .social-links {
     display: flex;
-    gap: 10px;
-    background-color: red;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
 }
 .contact-section .social-links .social-container a{
-    background-color: aqua;
+    border-radius: .5rem;
+    padding: 1rem;
     display: flex;
     align-items: center;
     width: 100%;
-    gap: 5px;
+    gap: .5rem;
+}
+.contact-section .social-links .social-container a:hover {
+    background-color: var(--hover-color);
 }
 .contact-section .social-links .social-container .social-logo {
-    width: 40px;
+    width: 4rem;
+    margin-right: .3rem;
 }
 footer {
-    background-color: greenyellow;
     height: 10vh;
     display: flex;
     align-items: center;
-    padding-left: 1vw;
+    padding-left: 2rem;
+    background-color: var(--end-color);
 }
+@media(max-width: 800px) {
+    .navbar {
+        justify-content: center;
+    }
+    .navbar ul {
+        margin-right: 0;
+    }
+    footer {
+        justify-content: center;
+    }
+}
+
+

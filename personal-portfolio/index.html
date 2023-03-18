@@ -11,13 +11,13 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>lorem</title>
+    <title>Personal portfolio - Wendler Juan José</title>
   </head>
   <body>
     <!-- START nav -->
     <nav id="navbar" class="navbar">
       <ul>
-        <li><a href="#welcome-section">welcome</a></li>
+        <li><a href="#welcome-section">About</a></li>
         <li><a href="#projects">projects</a></li>
         <li><a href="#contact-section">contact</a></li>
       </ul>
@@ -25,59 +25,78 @@
     <!-- END nav -->
     <!-- START welcome section -->
     <section id="welcome-section" class="welcome-section">
-      <h1>Lorem, ipsum dolor.</h1>
+      <div class="welcome-container">
+        <h1 class="h1">Welcome, I'm Juan José</h1>
+        <span class="sub">a jr. web developer</span>
+      </div>
     </section>
     <!-- END welcome section -->
     <!-- START projects section -->
     <section id="projects" class="projects-section">
-      <h2>Estos son algunos de mis projectos</h2>
+      <h2>These are some of my <span class="underline">projects</span> </h2>
       <div class="project">
-        <a href="https://codepen.io/_juanjoowendler/full/yLxEbaX" target="_blank">
+        <a
+          href="https://codepen.io/_juanjoowendler/full/yLxEbaX"
+          target="_blank"
+          id="profile-link"
+        >
           <div class="project-img-container">
             <img
               src="https://github.com/juanjoowendler/freecodecamp/blob/main/personal-portfolio/assets/survey-form/img.jpg?raw=true"
               alt="project image"
               class="project-img"
             />
-            <p class="project-title">Survey form</p>
+            <p class="project-tile">Survey form</p>
           </div>
         </a>
       </div>
       <div class="project">
-        <a href="https://codepen.io/_juanjoowendler/full/GRXGmaj" target="_blank">
+        <a
+          href="https://codepen.io/_juanjoowendler/full/GRXGmaj"
+          target="_blank"
+        >
           <div class="project-img-container">
             <img
               src="https://github.com/juanjoowendler/freecodecamp/blob/main/personal-portfolio/assets/tribute-page/img.jpg?raw=true"
               alt="project image"
               class="project-img"
             />
-            <p class="project-title">Tribute page</p>
+            <p class="project-tile">Tribute page</p>
           </div>
         </a>
       </div>
       <div class="project">
-        <a href="https://codepen.io/_juanjoowendler/full/LYJrLEY" target="_blank">
+        <a
+          href="https://codepen.io/_juanjoowendler/full/LYJrLEY"
+          target="_blank"
+        >
           <div class="project-img-container">
             <img
               src="https://github.com/juanjoowendler/freecodecamp/blob/main/personal-portfolio/assets/technical-documentation-page/img.jpg?raw=true"
               alt="project image"
               class="project-img"
             />
-            <p class="project-title">Technical documentation page</p>
+            <p class="project-tile">Technical documentation page</p>
           </div>
         </a>
       </div>
       <div class="project">
-        <a href="https://codepen.io/_juanjoowendler/full/dyqKRMG" target="_blank">
+        <a
+          href="https://codepen.io/_juanjoowendler/full/dyqKRMG"
+          target="_blank"
+        >
           <div class="project-img-container">
             <img
               src="https://github.com/juanjoowendler/freecodecamp/blob/main/personal-portfolio/assets/product-landing-page/img.jpg?raw=true"
               alt="project image"
               class="project-img"
             />
-            <p class="project-title">Product landing page</p>
+            <p class="project-tile">Product landing page</p>
           </div>
         </a>
+      </div>
+      <div class="more">
+        <a href="https://github.com/juanjoowendler" target="_blank">See more</a>
       </div>
     </section>
     <!-- END projects section -->
@@ -87,7 +106,7 @@
         <div class="instagram social-container">
           <a href="https://www.instagram.com/_juanjoowendler/" target="_blank"
             ><img
-              src="https://github.com/juanjoowendler/freecodecamp/blob/main/personal-portfolio/assets/social-icons/instagram.png?raw=true"
+              src="https://github.com/juanjoowendler/freecodecamp/blob/main/personal-portfolio/assets/social-icons/white/instagram.png?raw=true"
               alt=""
               class="social-logo"
             />
@@ -95,9 +114,11 @@
           >
         </div>
         <div class="linkedin social-container">
-          <a href="https://www.linkedin.com/in/juan-jos%C3%A9-wendler-829145247/" target="_blank"
+          <a
+            href="https://www.linkedin.com/in/juan-jos%C3%A9-wendler-829145247/"
+            target="_blank"
             ><img
-              src="https://github.com/juanjoowendler/freecodecamp/blob/main/personal-portfolio/assets/social-icons/linkedin.png?raw=true"
+              src="https://github.com/juanjoowendler/freecodecamp/blob/main/personal-portfolio/assets/social-icons/white/linkedin-logo.png?raw=true"
               alt=""
               class="social-logo"
             />
@@ -107,7 +128,7 @@
         <div class="whatsapp social-container">
           <a href="https://wa.me/qr/HX7EK6WF24MQM1" target="_blank"
             ><img
-              src="https://github.com/juanjoowendler/freecodecamp/blob/main/personal-portfolio/assets/social-icons/whatsapp.png?raw=true"
+              src="https://github.com/juanjoowendler/freecodecamp/blob/main/personal-portfolio/assets/social-icons/white/whatsapp.png?raw=true"
               alt=""
               class="social-logo"
             />
@@ -117,7 +138,7 @@
         <div class="github social-container">
           <a href="https://github.com/juanjoowendler" target="_blank"
             ><img
-              src="https://github.com/juanjoowendler/freecodecamp/blob/main/personal-portfolio/assets/social-icons/github.png?raw=true"
+              src="https://github.com/juanjoowendler/freecodecamp/blob/main/personal-portfolio/assets/social-icons/white/github.png?raw=true"
               alt=""
               class="social-logo"
             />
@@ -125,9 +146,12 @@
           >
         </div>
         <div class="gmail social-container">
-          <a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRqhSHsflvVTrscsNPbZxgbTLfQlszQGRPSfjlmWVDNnTjRLvsnVvqjmDNHlKwsqFwmgBHG" target="_blank">
+          <a
+            href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRqhSHsflvVTrscsNPbZxgbTLfQlszQGRPSfjlmWVDNnTjRLvsnVvqjmDNHlKwsqFwmgBHG"
+            target="_blank"
+          >
             <img
-              src="https://github.com/juanjoowendler/freecodecamp/blob/main/personal-portfolio/assets/social-icons/arroba.png?raw=true"
+              src="https://github.com/juanjoowendler/freecodecamp/blob/main/personal-portfolio/assets/social-icons/white/arroba.png?raw=true"
               alt=""
               class="social-logo"
             />
@@ -139,7 +163,7 @@
     <!-- END contact section -->
     <!-- START footer section -->
     <footer>
-      <p>&copy; 2023 portafolio personal - Wendler Juan José</p>
+      <p>&copy; 2023 personal portfolio - Wendler Juan José</p>
     </footer>
     <!-- END footer section -->
   </body>
