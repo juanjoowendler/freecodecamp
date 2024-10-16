@@ -3,6 +3,12 @@
 **📅 Duration:** 300 hours  
 **📖 Course:** Responsive Web Design - FreeCodeCamp
 
+## 🌐 Live Projects (NOT ALL OF THEM)
+- [Product Landing Page](https://product-landing-page-example.netlify.app/)
+- [Tribute to Alan Turing Page](https://tribute-alanturing-page.netlify.app/)
+- [Survey Form](https://survey-form-myexample.netlify.app/)
+- [Technical Linux Documentation Page](https://technical-documentation-linux-page.netlify.app/)
+
 ## 📖 Description
 This repository contains a collection of simple frontend projects created as part of the Responsive Web Design course offered by FreeCodeCamp. These projects showcase my skills, creativity, and understanding of web development concepts.
 
@@ -29,9 +35,7 @@ To view the projects, open the corresponding `index.html` files in your web brow
 ![Projects Preview](projects-assets/personal-portfolio-demo-no-original/img3.png)
 ![Projects Preview](projects-assets/personal-portfolio-demo-no-original/img4.png)
 
-
 ### Product Landing Page
-
 ![Projects Preview](projects-assets/product-landing-page/img1.png)
 ![Projects Preview](projects-assets/product-landing-page/img2.png)
 ![Projects Preview](projects-assets/product-landing-page/img3.png)
@@ -39,17 +43,12 @@ To view the projects, open the corresponding `index.html` files in your web brow
 ![Projects Preview](projects-assets/product-landing-page/img5.png)
 
 ### Survey Form
-
 ![Projects Preview](projects-assets/survey-form/img1.png)
 ![Projects Preview](projects-assets/survey-form/img2.png)
 
 ### Technical Linux Documentation Page
-
 ![Projects Preview](projects-assets/technical-documentation-page/img1.png)
 ![Projects Preview](projects-assets/technical-documentation-page/img2.png)
 
 ### Tribute to Alan Turing Page
-
 ![Projects Preview](projects-assets/tribute-page/img1.png)
-
-
