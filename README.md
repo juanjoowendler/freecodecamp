@@ -3,7 +3,7 @@
 **📅 Duration:** 300 hours  
 **📖 Course:** Responsive Web Design - FreeCodeCamp
 
-## 🌐 Live Projects (NOT ALL OF THEM)
+## 🌐 Live Projects (NOT ALL OF THEM, BUT YOU CAN SEE THE PREVIEWS 📷)
 - [Product Landing Page](https://product-landing-page-example.netlify.app/)
 - [Tribute to Alan Turing Page](https://tribute-alanturing-page.netlify.app/)
 - [Survey Form](https://survey-form-myexample.netlify.app/)
